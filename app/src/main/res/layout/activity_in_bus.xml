@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#DDFFFFFF">
+    
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus Number: MP 04 CN 4520"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Number: 9894503324"
+        android:layout_below="@id/text3"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:paddingTop="5dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="For Students"
+
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <Button
+        android:id="@+id/fetch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch Location of Bus"
+
+
+        android:background="@color/colorPrimary"
+        android:padding="15dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For Bus Driver"
+            android:textColor="#000000"
+            android:textSize="20dp"
+
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/locate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="15dp"
+            android:text="Locate My Bus"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
